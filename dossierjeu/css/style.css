@@ -1,0 +1,95 @@
+
+#zonejeu{
+  display: flex;
+  background-image: url("../img/background.png");
+  width: 1800px;
+  height: 900px;
+  max-width: 100%;
+  border: 3px solid red;
+}
+
+#menu_attaque{
+  display: flex;
+  width: 400px;
+  height: 800px;
+  font: 15px Arial, sans-serif;
+  background-color: transparent;
+  border: 4mm ridge rgba(170, 50, 220, .3);
+  border-radius: 10px;
+  align-self: flex-end;
+}
+
+#bouton_attaque{
+  display: flex;
+  font: 25px Arial, sans-serif;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#bouton{
+  border: 4mm ridge rgba(170, 50, 220, .3);
+}
+
+#Perceval{
+  display: flex;
+  margin-left: 50px;
+  margin-bottom: 10px;
+  width: 300px;
+  height: 150px;
+  font: 15px Arial, sans-serif;
+  background-color: rgba(50, 115, 220, 0.4);
+  border: 5px solid blue;
+  border-radius: 10px;
+  align-self: flex-end;
+}
+
+#stats_perceval{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#Karadoc{
+  display: flex;
+  margin-left: 50px;
+  margin-bottom: 10px;
+  width: 300px;
+  height: 150px;
+  font: 15px Arial, sans-serif;
+  background-color: rgba(50, 115, 220, 0.4);
+  border: 5px solid blue;
+  border-radius: 10px;
+  align-self: flex-end;
+}
+
+#stats_karadoc{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+#serpent{
+  display: flex;
+  margin-left: 5px;
+  margin-top: 10px;
+  width: 300px;
+  height: 150px;
+  font: 15px Arial, sans-serif;
+  background-color: hsla(14, 100%, 53%, 0.3);
+  border: 5px solid red;
+  border-radius: 10px;
+}
+
+#stats_serpent{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#serpent_1 {
+	background-image: url("../Img/serpent.png");
+	background-repeat: no-repeat;
+	padding: 150px;
+}
